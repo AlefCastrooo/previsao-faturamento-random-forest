@@ -78,6 +78,7 @@ resultado = pd.DataFrame({
     "Data": df["data"].iloc[divisao:].values,
     "Real": y_teste.values,
     "Previsto": previsoes
+})
 
 resultado["Erro_Absoluto"] = abs(
     resultado["Real"] - resultado["Previsto"]
