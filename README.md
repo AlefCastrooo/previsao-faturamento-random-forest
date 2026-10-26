@@ -1,4 +1,4 @@
-# Previsão de Faturamento com Machine Learning
+# Previsão de Faturamento com Machine Learning 
 
 ## Sobre o projeto
 
