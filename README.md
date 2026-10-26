@@ -28,7 +28,20 @@ O projeto foi desenvolvido em cinco etapas:
 
 ## Resultados
 
-O modelo permite comparar o faturamento estimado com os valores reais simulados, avaliando a capacidade de identificar relações entre as variáveis utilizadas.
+O modelo foi treinado utilizando uma base simulada de 365 dias de vendas, com divisão cronológica de 80% para treinamento e 20% para teste.
+
+**Métricas obtidas:**
+
+- MAE (Erro Absoluto Médio): R$ 182,12
+- R² (Coeficiente de Determinação): 0,8883
+
+O modelo conseguiu explicar aproximadamente 88,83% da variação do faturamento no conjunto de teste.
+
+A análise de importância das variáveis demonstrou que a quantidade de clientes foi o principal fator utilizado pelo algoritmo.
+
+**Limitações:** os resultados foram obtidos com dados simulados e utilizando informações do próprio dia. Portanto, representam a capacidade de estimativa do modelo nesse cenário, não uma validação de previsão antecipada de faturamento.
+
+O próximo objetivo é evoluir o projeto para realizar previsões futuras com informações disponíveis antes do período previsto.
 
 As métricas de desempenho são calculadas durante a execução do código.
 
