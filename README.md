@@ -45,6 +45,14 @@ O próximo objetivo é evoluir o projeto para realizar previsões futuras com in
 
 As métricas de desempenho são calculadas durante a execução do código.
 
+### Faturamento real vs. estimado
+
+![Faturamento real vs. estimado](faturamento_real_vs_estimado.png)
+
+### Importância das variáveis
+
+![Importância das variáveis](importancia_variaveis.png)
+
 ## Limitações e melhorias futuras
 
 Esta primeira versão utiliza dados simulados e considera a quantidade de clientes do próprio dia para estimar o faturamento.
